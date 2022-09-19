@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "I can "write" without double quotes"
+#! /bin/bash
+echo"I can "write" without double quotes"
