@@ -1,2 +1,5 @@
 #!/bin/bash
-nohup java -jar /home/ubuntu/order/target/jb-hello-world-maven-0.2.0.jar  > /dev/null 2>&1 &
+
+# Stop all servers and start the server as a daemon
+#forever stopall
+forever start /home/ubuntu/nodejs/app.js
