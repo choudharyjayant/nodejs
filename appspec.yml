@@ -4,7 +4,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/nodejs
-
+    
+hooks:
   BeforeInstall:
     - location: Dependency_Scripts/rmBeforeInstall.sh
       timeout: 300
