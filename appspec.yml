@@ -6,11 +6,11 @@ files:
     destination: /home/ubuntu/nodejs
 
   BeforeInstall:
-    - location: scripts/before_install.sh
+    - location: Dependency_Scripts/rmBeforeInstall.sh
       timeout: 300
       runas: ubuntu
 
   ApplicationStart:
-    - location: scripts/application_start.sh
+    - location: Dependency_Sscripts/startApplication.sh
       timeout: 300
       runas: ubuntu
