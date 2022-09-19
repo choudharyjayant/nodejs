@@ -12,6 +12,6 @@ hooks:
       runas: ubuntu
 
   ApplicationStart:
-    - location: Dependency_Sscripts/startApplication.sh
+    - location: Dependency_Scripts/startApplication.sh
       timeout: 300
       runas: ubuntu
