@@ -1,2 +1,2 @@
 #! /bin/bash
-sudo rm -rf  /home/ubuntu/nodejs/*
+sudo rm -rf  /var/lib/jenkins/workspace/jenkins-nodejs/*
